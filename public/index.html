@@ -1,0 +1,16 @@
+<html ng-app='demShadyLawyers'>
+<head>
+	<title>Lawyer Scoreboard</title>
+</head>
+<body ng-controller='LawyerController'>
+	<div ng-repeat='lawyer in lawyers'>
+		<h4>{{lawyer.name}} {{lawyer.record}}</h4>
+	</div>
+
+
+<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js'></script>
+<script type="text/javascript" src='js/app.js'></script>
+<script type="text/javascript" src='js/LawyerController.js'></script>
+<script type="text/javascript" src='js/lawyerService.js'></script>
+</body>
+</html>
